@@ -1,5 +1,7 @@
 # [SkeletonAppDemo](https://www.youtube.com/watch?v=Qq3Evspeea8)
 
+<img width="490" src="https://user-images.githubusercontent.com/47273077/156079369-7bcb6fdc-774a-4cef-8a42-0eea63802d0a.png">
+
 ## With Skeleton View
 ```swift 
 import UIKit
