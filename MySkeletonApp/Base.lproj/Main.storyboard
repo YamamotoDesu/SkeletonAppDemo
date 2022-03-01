@@ -33,12 +33,18 @@
                                                         <constraint firstAttribute="width" constant="100" id="Bzy-aZ-jc7"/>
                                                         <constraint firstAttribute="height" constant="100" id="NZH-bQ-w0I"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here is some longer text in our cell" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kz5-zk-2GV">
                                                     <rect key="frame" x="130" y="21" width="244" height="92"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </label>
                                             </subviews>
                                             <constraints>
@@ -50,7 +56,13 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="kz5-zk-2GV" secondAttribute="trailing" constant="20" id="sQH-Cx-82N"/>
                                                 <constraint firstItem="kz5-zk-2GV" firstAttribute="leading" secondItem="DoF-uz-efn" secondAttribute="trailing" constant="20" id="xDg-9c-3op"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
                                         </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outlet property="myImageView" destination="DoF-uz-efn" id="FKO-gt-Yz8"/>
                                             <outlet property="myLabel" destination="kz5-zk-2GV" id="uZo-U7-yZw"/>
