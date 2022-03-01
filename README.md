@@ -1,6 +1,6 @@
 # [SkeletonAppDemo](https://www.youtube.com/watch?v=Qq3Evspeea8)
 
-<img width="490" src="https://github.com/YamamotoDesu/SkeletonAppDemo/blob/main/MySkeletonApp/Gif/skeletonview.gif">
+<img width="490" src="https://github.com/YamamotoDesu/SkeletonAppDemo/blob/main/MySkeletonApp/skeletonview.gif">
 
 ## With Skeleton View
 ```swift 
